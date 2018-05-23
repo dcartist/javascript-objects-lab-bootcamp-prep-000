@@ -36,13 +36,6 @@ function deleteFromObjectByKey(object, key) {
 }
 
 //Objects destructivelyDeleteFromObjectByKey(object, key) returns object without the delete key/value pair:
-function destructivelyDeleteFromObjectByKey(object, key){
-  var newObj = {}
-  newObj = Object.assign({}, object)
-  delete newObj.key
-  //object = Object.assign({}, object, key)
-//  return object[key]
-    return object[key]
 
-}
+
 //Objects destructivelyDeleteFromObjectByKey(object, key) modifies the original object:
