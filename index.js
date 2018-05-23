@@ -46,4 +46,8 @@ function destructivelyDeleteFromObjectByKey(object, key){
     return object[key]
 
 }*/
+function destructivelyDeleteFromObjectByKey(object, key){
+  
+}
 //Objects destructivelyDeleteFromObjectByKey(object, key) modifies the original object:
+
